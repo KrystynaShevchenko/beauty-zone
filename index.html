@@ -81,12 +81,18 @@
           <p class="hero-text">Косметологічна клініка</p>
           <h1 class="title">beauty zone</h1>
           <button class="hero-btn" type="button">Замовити дзвінок</button>
-          <p class="hero-txt">
-            Запишись та отримай безкоштовну консультацію нашого косметолога
-          </p>
-          <p class="hero-txt">
-            Запишись та отримай безкоштовну консультацію нашого косметолога
-          </p>
+          <ul class="hero-list">
+            <li class="hero-item">
+              <p class="hero-txt">
+                Запишись та отримай безкоштовну консультацію нашого косметолога
+              </p>
+            </li>
+            <li class="hero-item">
+              <p class="hero-txt">
+                Запишись та отримай безкоштовну консультацію нашого косметолога
+              </p>
+            </li>
+          </ul>
         </section>
 
         <section class="invite">
@@ -196,34 +202,147 @@
           </ul>
         </section>
 
-        <section>
-          <h2>Як нас <span>знайти</span></h2>
-          <form action=""></form>
+        <section class="address">
+          <h2 class="address-contacts">Як нас <span>знайти</span></h2>
+          <iframe
+            class="address-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.2845186091054!2d30.474236087099275!3d50.45442631384327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce8778dce1b9%3A0x6e9fd6903066b1a7!2sBeauty%20Zone!5e0!3m2!1sru!2sjo!4v1747524519511!5m2!1sru!2sjo"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <form
+            class="form"
+            action="#"
+            method="get"
+            enctype="multipart/form-data"
+          >
+            <h3 class="form-title">
+              Запишіться <span>безкоштовно</span> та отримайте подарунок
+            </h3>
+            <input
+              class="form-input"
+              type="text"
+              name="username"
+              value="Ваше ім'я та прізвище"
+            />
+            <input
+              class="form-input"
+              type="tel"
+              name="tel"
+              value="Ваш номер телефону"
+            />
+            <input
+              class="form-input"
+              type="text"
+              name="mail"
+              value="Ваша електронна пошта"
+            />
+            <button class="form-btn" type="button">
+              Записатись безкоштовно
+            </button>
+            <p class="form-text">
+              Натискаючи на кнопку я погоджуюсь з політикою конфіденційності
+            </p>
+          </form>
         </section>
       </main>
 
-      <footer>
-        <nav>
-          <a href="/index.html"></a>
-          <ul>
-            <li><p>Про нас</p></li>
-            <li><p>Чому ми</p></li>
-            <li><p>Наші процедури</p></li>
-            <li><p>Контакти</p></li>
+      <footer class="footer">
+        <nav class="footer-nav">
+          <a class="footer-logo" href="/index.html">beauty zone</a>
+          <ul class="footer-list-nav">
+            <li class="footer-item-nav">
+              <p class="footer-item-nav-text">Про нас</p>
+            </li>
+            <li class="footer-item-nav">
+              <p class="footer-item-nav-text">Чому ми</p>
+            </li>
+            <li class="footer-item-nav">
+              <p class="footer-item-nav-text">Наші процедури</p>
+            </li>
+            <li class="footer-item-nav">
+              <p class="footer-item-nav-text">Контакти</p>
+            </li>
           </ul>
         </nav>
-        <ul>
-          <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
-          <li>
-            <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
+
+        <ul class="footer-address-list">
+          <li class="footer-address-item">
+            <a class="footer-address-link" href="tel:+380960000007"
+              >+ 38 (096) 000 00 07</a
+            >
           </li>
-          <li>
-            <address>Україна, м. Київ, <br />вул. Тараса Шевченка 5</address>
+          <li class="footer-address-item">
+            <a class="footer-address-link" href="mailto:beautyzone@gmail.com"
+              >beautyzone@gmail.com</a
+            >
+          </li>
+          <li class="footer-address-item">
+            <address class="footer-address-link">
+              Україна, м. Київ, <br />вул. Тараса Шевченка 5
+            </address>
           </li>
         </ul>
-        <ul>
-          <li><p>Політика конфіденційності</p></li>
-          <li>© 2022 Дані захищені</li>
+
+        <ul class="footer-icon-list">
+          <li class="footer-icon-item">
+            <a
+              class="footer-icon-link"
+              href="tel:+380960000007"
+              target="_blank"
+            >
+              <img
+                class="footer-icon-img"
+                src="./img/telephone-icon.png"
+                alt="icon-telephone"
+                width="42px"
+                height="42px"
+              />
+            </a>
+          </li>
+          <li class="footer-icon-item">
+            <a
+              class="footer-icon-link"
+              href="https://www.facebook.com/"
+              target="_blank"
+            >
+              <img
+                class="footer-icon-img"
+                src="./img/fase-book-icon.png"
+                alt="icon-facebook"
+                width="42px"
+                height="42px"
+              />
+            </a>
+          </li>
+          <li class="footer-icon-item">
+            <a
+              class="footer-icon-link"
+              href="https://www.instagram.com/"
+              target="_blank"
+            >
+              <img
+                class="footer-icon-img"
+                src="./img/instagram-icon.png"
+                alt="icon-instagram"
+                width="42px"
+                height="42px"
+              />
+            </a>
+          </li>
+        </ul>
+
+        <ul class="privacy-list">
+          <li class="privacy-item">
+            <p class="privacy-text">Політика конфіденційності</p>
+          </li>
+          <li class="privacy-item">
+            <p class="privacy-text">&copy; 2022 Дані захищені</p>
+          </li>
         </ul>
       </footer>
     </div>
